@@ -1,0 +1,60 @@
+html {
+  font-family: "Playpen Sans", cursive;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#canvas {
+  position: relative;
+  z-index: 1;
+}
+
+#score {
+  font-size: large;
+  background-color: rgba(11, 156, 49, 0.8);
+  position: absolute;
+  top: 5px;
+  left: 45%;
+  z-index: 2;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 30px;
+}
+
+#left {
+  text-align: center;
+  background-color: rgba(84, 215, 119, 0.8);
+  border: 1px solid black;
+  height: 3rem;
+  width: 5rem;
+  z-index: 2;
+}
+#shoot {
+  text-align: center;
+  background-color: rgba(84, 215, 119, 0.8);
+  border: 1px solid black;
+  height: 3rem;
+  width: 7rem;
+  z-index: 2;
+}
+#right {
+  text-align: center;
+  background-color: rgba(84, 215, 119, 0.8);
+  border: 1px solid black;
+  height: 3rem;
+  width: 5rem;
+  z-index: 2;
+}
